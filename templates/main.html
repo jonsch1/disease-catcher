@@ -12,7 +12,7 @@
     {% if results %}
     <br>
     <br>
-    <h2> BERT predicts the following ICD-10 disease {% if results[1]|length > 1 %} codes {% else %} code {% endif %}: 
+    <h2> Disease Catcher predicts the following ICD-10 disease {% if results[1]|length > 1 %} codes {% else %} code {% endif %}: 
         {% for result in results[1] %}
         <br>
         <br>
